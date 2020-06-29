@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0000b193c97cb322ab399059f5f9be47",
+    "revision": "cb0f3e3f2a399e1940f57c45a22ca01b",
     "url": "/SuomenKaupungit/index.html"
   },
   {
-    "revision": "6bc97d75edee0c3e8290",
+    "revision": "9354c3c83e3bc83f10fa",
     "url": "/SuomenKaupungit/static/css/main.67bccd37.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SuomenKaupungit/static/js/2.2e409217.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bc97d75edee0c3e8290",
-    "url": "/SuomenKaupungit/static/js/main.2d58ffe2.chunk.js"
+    "revision": "9354c3c83e3bc83f10fa",
+    "url": "/SuomenKaupungit/static/js/main.0dc3c3e1.chunk.js"
   },
   {
     "revision": "e86cd8be65a235caa83e",

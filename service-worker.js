@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SuomenKaupungit/precache-manifest.df02233b394cbfd35beaf9396fa2013f.js"
+  "/SuomenKaupungit/precache-manifest.9989b80ba7a0711cc31833551e0b5f33.js"
 );
 
 self.addEventListener('message', (event) => {
