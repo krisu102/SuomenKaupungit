@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SuomenKaupungit/static/css/main.67bccd37.chunk.css",
+    "main.js": "/SuomenKaupungit/static/js/main.2d58ffe2.chunk.js",
+    "main.js.map": "/SuomenKaupungit/static/js/main.2d58ffe2.chunk.js.map",
+    "runtime-main.js": "/SuomenKaupungit/static/js/runtime-main.edad5c77.js",
+    "runtime-main.js.map": "/SuomenKaupungit/static/js/runtime-main.edad5c77.js.map",
+    "static/js/2.2e409217.chunk.js": "/SuomenKaupungit/static/js/2.2e409217.chunk.js",
+    "static/js/2.2e409217.chunk.js.map": "/SuomenKaupungit/static/js/2.2e409217.chunk.js.map",
+    "index.html": "/SuomenKaupungit/index.html",
+    "precache-manifest.df02233b394cbfd35beaf9396fa2013f.js": "/SuomenKaupungit/precache-manifest.df02233b394cbfd35beaf9396fa2013f.js",
+    "service-worker.js": "/SuomenKaupungit/service-worker.js",
+    "static/css/main.67bccd37.chunk.css.map": "/SuomenKaupungit/static/css/main.67bccd37.chunk.css.map",
+    "static/js/2.2e409217.chunk.js.LICENSE.txt": "/SuomenKaupungit/static/js/2.2e409217.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edad5c77.js",
+    "static/js/2.2e409217.chunk.js",
+    "static/css/main.67bccd37.chunk.css",
+    "static/js/main.2d58ffe2.chunk.js"
+  ]
+}
