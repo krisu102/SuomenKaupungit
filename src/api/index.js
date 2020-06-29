@@ -38,7 +38,7 @@ export const fetchCurrentYearData = async () =>{
             "format": "json"
           }
         }
-    const response = await axios.post('http://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vamuu/statfin_vamuu_pxt_11lj.px', params)
+    const response = await axios.post('https://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vamuu/statfin_vamuu_pxt_11lj.px', params)
     const data = response.data.data;
     
     
@@ -83,10 +83,10 @@ export const fetchCityData = async () =>{
               "format": "json"
             }
       }
-  const response = await axios.post('http://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vaerak/statfin_vaerak_pxt_11ra.px', params)
+  const response = await axios.post('https://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vaerak/statfin_vaerak_pxt_11ra.px', params)
   const data = response.data.data;
 
-  const metaDataResponse = await axios.get('http://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vaerak/statfin_vaerak_pxt_11ra.px');
+  const metaDataResponse = await axios.get('https://pxnet2.stat.fi/PXWeb/api/v1/fi/StatFin/vrm/vaerak/statfin_vaerak_pxt_11ra.px');
   
   const metaData = metaDataResponse.data.variables[0];
 
