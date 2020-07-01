@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SuomenKaupungit/static/css/main.67bccd37.chunk.css",
-    "main.js": "/SuomenKaupungit/static/js/main.0dc3c3e1.chunk.js",
-    "main.js.map": "/SuomenKaupungit/static/js/main.0dc3c3e1.chunk.js.map",
+    "main.css": "/SuomenKaupungit/static/css/main.7fb2940a.chunk.css",
+    "main.js": "/SuomenKaupungit/static/js/main.1200b6c3.chunk.js",
+    "main.js.map": "/SuomenKaupungit/static/js/main.1200b6c3.chunk.js.map",
     "runtime-main.js": "/SuomenKaupungit/static/js/runtime-main.edad5c77.js",
     "runtime-main.js.map": "/SuomenKaupungit/static/js/runtime-main.edad5c77.js.map",
-    "static/js/2.2e409217.chunk.js": "/SuomenKaupungit/static/js/2.2e409217.chunk.js",
-    "static/js/2.2e409217.chunk.js.map": "/SuomenKaupungit/static/js/2.2e409217.chunk.js.map",
+    "static/js/2.4aa3c306.chunk.js": "/SuomenKaupungit/static/js/2.4aa3c306.chunk.js",
+    "static/js/2.4aa3c306.chunk.js.map": "/SuomenKaupungit/static/js/2.4aa3c306.chunk.js.map",
     "index.html": "/SuomenKaupungit/index.html",
-    "precache-manifest.9989b80ba7a0711cc31833551e0b5f33.js": "/SuomenKaupungit/precache-manifest.9989b80ba7a0711cc31833551e0b5f33.js",
+    "precache-manifest.7248f337fbfd49a7acd1d3506cb78119.js": "/SuomenKaupungit/precache-manifest.7248f337fbfd49a7acd1d3506cb78119.js",
     "service-worker.js": "/SuomenKaupungit/service-worker.js",
-    "static/css/main.67bccd37.chunk.css.map": "/SuomenKaupungit/static/css/main.67bccd37.chunk.css.map",
-    "static/js/2.2e409217.chunk.js.LICENSE.txt": "/SuomenKaupungit/static/js/2.2e409217.chunk.js.LICENSE.txt"
+    "static/css/main.7fb2940a.chunk.css.map": "/SuomenKaupungit/static/css/main.7fb2940a.chunk.css.map",
+    "static/js/2.4aa3c306.chunk.js.LICENSE.txt": "/SuomenKaupungit/static/js/2.4aa3c306.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.edad5c77.js",
-    "static/js/2.2e409217.chunk.js",
-    "static/css/main.67bccd37.chunk.css",
-    "static/js/main.0dc3c3e1.chunk.js"
+    "static/js/2.4aa3c306.chunk.js",
+    "static/css/main.7fb2940a.chunk.css",
+    "static/js/main.1200b6c3.chunk.js"
   ]
 }
