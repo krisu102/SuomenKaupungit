@@ -4,18 +4,21 @@ import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import styles from './Table.module.css';
 
 const SingleCityTable = ({city, CityNames, data, currentYearData}) => {
 
-    const useStyles = makeStyles({
-        table: {
-          minWidth: 650,
-        },
-      });
+  const useStyles = makeStyles({
+    table: {
+      width: 250,
+    },
+    paper: {
+      width: 250,
+    },
+    });
 
       const classes = useStyles();
 
@@ -71,9 +74,31 @@ const SingleCityTable = ({city, CityNames, data, currentYearData}) => {
 
 
     return(
-        <div>
-        <h3>Kuluneen vuoden ennakkotiedot</h3>
-            <TableContainer component={Paper}>
+      <div className={styles.root}>
+      <h3>Viimeiset 30 vuotta</h3>
+      <Line
+            data={{
+                labels: SelectedCity.map(({vuosi}) => vuosi),
+                datasets: [{
+                    data: SelectedCity.map(({asukasluku}) => asukasluku),
+                    label: 'Asukasluku',
+                    borderColor: '#0062ff',
+                    fill: true,
+                    lineTension: 0,
+                },
+                {
+                    data: SelectedCity.map(({muutos}) => muutos),
+                    label: 'Muutos',
+                    borderColor: 'rgba(255, 0, 0, 0.5)',
+                    fill: true,
+                    lineTension: 0,
+                }
+            ],
+            }}
+        />
+
+      <h3>Kuluneen vuoden ennakkotiedot</h3>
+      <Paper className={classes.paper}>
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
             <TableRow>
@@ -92,28 +117,8 @@ const SingleCityTable = ({city, CityNames, data, currentYearData}) => {
             ))}
           </TableBody>
         </Table>
-      </TableContainer>
-    
-      <h3>Viimeiset 30 vuotta</h3>
-      <Line
-            data={{
-                labels: SelectedCity.map(({vuosi}) => vuosi),
-                datasets: [{
-                    data: SelectedCity.map(({asukasluku}) => asukasluku),
-                    label: 'Asukasluku',
-                    borderColor: '#0062ff',
-                    fill: true,
-                },
-                {
-                    data: SelectedCity.map(({muutos}) => muutos),
-                    label: 'Muutos',
-                    borderColor: 'rgba(255, 0, 0, 0.5)',
-                    fill: true,
-                }
-            ],
-            }}
-        />
-        </div>
+      </Paper>
+    </div>
         
     )
 }
