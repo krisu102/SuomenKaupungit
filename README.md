@@ -7,4 +7,4 @@ data is fetched from stat.fi
 - Axios
 - React-chartjs-2
 
-
+Made by: Kristian Kytönen, 2020
